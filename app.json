@@ -12,7 +12,12 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.yourappname",
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera to take photos of your dog.",
+        "NSPhotoLibraryUsageDescription": "This app uses the photo library to upload photos of your dog."
+      }
     },
     "android": {
       "adaptiveIcon": {
